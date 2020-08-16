@@ -47,29 +47,43 @@ int main()
 
     while(t--) 
     {
-    	lli a[1000000],b[1000000]={0},c[1000000]= {0};
-    	lli i=0,j=0,k=0,ii=0,jj=0,kk=0;
-    	lli x=0,y=0,z=0,xx=0,yy=0,zz=0;
-    	lli maxxi = INT_MIN, minni = INT_MAX , ans = 0, flag=0 , flag1 = 0,flag2=0,num=0,temp=0;
-    	lli n,m,l=0,r=0,freq=0,left=0,right=0,odd=0,even=0,pro=1,sum=0,index=0,diff=0;
-    	char ch,cchh,ccchhh;
-    	map<lli,lli>messi;
-    	vector<lli> vex;
+    	lli a[1000000], b[1000000] = {0}, c[1000000]= {0}, d[1000000] = {0};
+    	
+    	lli i=0, j=0, k=0, ii=0, jj=0, kk=0;
+    	lli x=0, y=0, z=0, xx=0, yy=0, zz=0;
+
+    	lli maxxi = LLONG_MIN, minni = LLONG_MAX;
+    	lli ans = 0, num = 0,temp = 0, sum = 0, pro=1, diff = 0, index = 0, pos = 0;
+
+    	lli n, m, l = 0, r = 0, freq=0, left = 0, right = 0,odd = 0,even = 0, flag = 0;
+
+    	
     	stack<lli> stick;
     	queue<lli> queen;
-    	deque<lli>dan;
-    	set<lli> sea;
+    	deque<lli> dan;
     	pair<lli,lli> pool;
-    	string s;
+    	
+
+    	map<lli,lli>messi;
+    	vector<lli> vex;
+    	set<lli> sea;
+    	
+    	char ch,cchh,ccchhh;
+    	string s,str;
 
  		vector<lli>::iterator it;
  		vector<lli>::reverse_iterator itr;
  		
+ 		//  Planet : Earth
+
+
+
+
+
 
 
 
 
     }
-
     return 0;
 }
