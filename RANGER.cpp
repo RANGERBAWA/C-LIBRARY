@@ -1,7 +1,8 @@
-               /*~~~~~~~~~~~~  AUTHOR == DIKSHU SHARMA  ~~~~~~~~~~~~~*/
-/*~~~~~~~~ TO THE WELL-ORGANIZED MIND, DEATH IS BUT THE NEXT GREAT ADVENTURE  ~~~~~~~~~~*/
-/*~~~~~~~~~~~~~~~~~``````~~~ LIVE IN THE PRESENT MOMENT ~~~``````~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~~~~~~~~~~ FIRST SOLVE THE PROBLEM THEN WRITE THE CODE ~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~```~~~~~~ AUTHOR == DIKSHU SHARMA ~~~~~~```~~~~~*/
+/*~ TO THE WELL-ORGANIZED MIND, ~~~~+++++++
+    ++++++++~~~~ DEATH IS BUT THE NEXT GREAT ADVENTURE ~*/
+/*~~+++~~~``~~~ LIVE IN THE PRESENT MOMENT ~~~``~~~+++~~*/
+
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -47,15 +48,18 @@ int main()
 
     while(t--) 
     {
-    	lli a[1000000], b[1000000] = {0}, c[1000000]= {0}, d[1000000] = {0};
     	
     	lli i=0, j=0, k=0, ii=0, jj=0, kk=0;
     	lli x=0, y=0, z=0, xx=0, yy=0, zz=0;
 
     	lli maxxi = LLONG_MIN, minni = LLONG_MAX;
-    	lli ans = 0, num = 0,temp = 0, sum = 0, pro=1, diff = 0, index = 0, pos = 0;
+    	lli ans = 0, num = 0, temp = 0, sum = 0;
+        
+        lli pro=1, diff = 0, index = 0, pos = 0;
+        lli odd = 0, even = 0, flag = 0, freq=0;
 
-    	lli n, m, l = 0, r = 0, freq=0, left = 0, right = 0,odd = 0,even = 0, flag = 0;
+    	lli n, m, l=0, r=0, left = 0, right = 0;
+        
 
     	
     	stack<lli> stick;
@@ -71,15 +75,21 @@ int main()
     	char ch,cchh,ccchhh;
     	string s,str;
 
- 		vector<lli>::iterator it;
- 		vector<lli>::reverse_iterator itr;
+ 		map<lli,lli>::iterator it;
+ 		map<lli,lli>::reverse_iterator itr;
  		
- 		//  Planet : Earth
+        //  Planet : Earth
 
 
+        vector<lli> a(n);
+        vector<lli> b(n);
+        vector<lli> c(n);
+        vector<lli> d(n);
 
+ 		
 
-
+        
+        
 
 
 
